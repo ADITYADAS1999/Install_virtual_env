@@ -21,3 +21,23 @@ python3 -m venv my_env
 
 # Activate the virtual environment
 source my_env/bin/activate
+
+# Install Jupyter Notebook inside the virtual environment
+pip install jupyter
+
+# Check if Jupyter Notebook was installed successfully
+if [ $? -eq 0 ]; then
+  # Print a Jupyter Notebook ASCII logo
+  echo "Jupyter Notebook installed successfully!"
+  echo "Here's a simple ASCII logo:"
+  echo "      @@@      "
+  echo "     @   @     "
+  echo "    @  $  @    "
+  echo "     @   @     "
+  echo "      @@@      "
+else
+  echo "Jupyter Notebook installation failed."
+fi
+
+# Run Jupyter Notebook
+jupyter notebook
