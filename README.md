@@ -6,7 +6,7 @@ cd /path/to/your/directory
 ```
 ## Clone your repository using:
 ```
-git clone https://github.com/yourusername/yourrepository.git
+git clone https://github.com/ADITYADAS1999/Install_virtual_env.git
 ```
 ## Change to the directory where your script is located:
 ```
