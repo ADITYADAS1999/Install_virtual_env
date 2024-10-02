@@ -23,7 +23,7 @@ python3 -m venv my_env
 source my_env/bin/activate
 
 # Install Jupyter Notebook inside the virtual environment
-pip install jupyter
+#pip install jupyter
 
 # Check if Jupyter Notebook was installed successfully
 if [ $? -eq 0 ]; then
@@ -40,4 +40,4 @@ else
 fi
 
 # Run Jupyter Notebook
-jupyter notebook
+#jupyter notebook
