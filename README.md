@@ -14,11 +14,11 @@ cd yourrepository
 ```
 ## Before running the script, make it executable:
 ```
-chmod +x setup_jupyter.sh
+chmod +x script.sh
 ```
 ## Execute the script by typing:
 ```
-./setup_jupyter.sh
+./script.sh
 ```
 ## Additional Notes
 Install Git: Ensure you have Git installed on your Ubuntu system. You can install it using:
@@ -37,5 +37,5 @@ cd yourrepository
 ```
 ## Execute the batch file by typing :
 ```
-setup_jupyter.bat
+script.bat
 ```
